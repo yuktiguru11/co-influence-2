@@ -5,8 +5,10 @@ import Navbar from "./core/Navbar";
 function App() {
   return (
     <>
+    <div className="bg-bgColour min-h-screen">
     <Navbar></Navbar>
-    <Carousel></Carousel>
+    </div>
+    {/* <Carousel></Carousel> */}
    
     </>
   );
