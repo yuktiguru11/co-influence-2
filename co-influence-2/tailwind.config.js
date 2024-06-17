@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'bgColour': '#d2d2cb'
+        'bgColour': '#d2d2cb',
+        "frontColour": '#4d695d',
+        "hoverColour": '#83a79d'
       }
     },
   },

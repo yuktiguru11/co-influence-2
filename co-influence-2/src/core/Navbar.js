@@ -1,3 +1,5 @@
+import logo from "../assests/Coinfluence-Icon.png"
+
 function Navbar() {
   return (
     <>
@@ -10,11 +12,11 @@ function Navbar() {
         "
       >
         <div>
-          
+          <img src={logo} alt ="logo" style={{ width: '250px', height: '50px' }}/>
         </div>
 
         <a
-          class="md:p-4 py-2 block hover:text-purple-400 text-purple-500"
+          class="md:p-4 py-2 block hover:text-hoverColour font-bold text-frontColour"
           href="#"
         >
           Sign Up

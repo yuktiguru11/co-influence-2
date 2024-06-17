@@ -6,9 +6,10 @@ function App() {
   return (
     <>
     <div className="bg-bgColour min-h-screen">
-    <Navbar></Navbar>
+    <Navbar/>
+     <Carousel/>
     </div>
-    {/* <Carousel></Carousel> */}
+   
    
     </>
   );
